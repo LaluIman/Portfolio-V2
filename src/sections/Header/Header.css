@@ -79,19 +79,19 @@
         padding: 10px;
     }
     .header-logo {
-        width: 10%;
+        width: 20%;
     }
     .header-navbar-left-item {
         margin: 0 10px;
+    }
+    .header-button{
+        display: none;
     }
 }
 
 @media (max-width: 480px) {
     .header-navbar {
         padding: 5px;
-    }
-    .header-logo {
-        width: 15%;
     }
     .header-navbar-left-item {
         margin: 0 10px;

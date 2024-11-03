@@ -21,7 +21,7 @@ const projects = [
         img: require('../../assets/img/mockup 3.webp'),
         description: 'Built an engaging school website with a fun, interactive theme and user-friendly interface, offering a modern and appealing digital presence.',
         link: '',
-        type: ["Website", "CSS", "JS"],
+        type: ["Website", "TailwindCSS"],
     },
     {
         id: 4,
