@@ -1,0 +1,116 @@
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("/src/assets/img/bg-home.svg");
+  background-size: cover;
+}
+
+.home-title-name{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.home-subtitle-passion{
+  font-size: 25px;
+  font-weight: 600;
+  color: #AAAAAA;
+}
+
+.home-link-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: row;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.link-icon{
+  transition: all .4s;
+}
+
+.link-icon:hover{
+ scale: 1.2;
+}
+
+
+.home-learnmore-button {
+  margin-top: 15px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  padding: 10px 25px;
+  background-color: transparent;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  font-weight: 600;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.home-learnmore-button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+  background-color: #d7d7d7;
+  color: #ffff;
+}
+
+.home-learnmore-button:hover .icon {
+  transform: translate(4px);
+}
+
+.home-learnmore-button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.home-learnmore-button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+
+
+
