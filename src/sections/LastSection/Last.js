@@ -4,7 +4,7 @@ import { Slide, Fade } from "react-awesome-reveal";
 function Last(){
     return(
         <div className="Last" style={{textAlign: 'center'}}>
-           <Fade>
+           <Fade triggerOnce>
              <Slide triggerOnce direction='up'>
                  <h3 className='Last-subtitle'>Love what you see?</h3>
                  <h1 className='Last-title'>Let's work together!</h1>

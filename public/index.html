@@ -12,8 +12,31 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Lalu Iman Abdullah</title>
+    <script src="https://dunggramer.github.io/disable-devtool/disable-devtool.min.js" defer></script>
+    <script src="https://cdn.staticaly.com/gh/DungGramer/disable-devtool/cbf447f/disable-devtool.min.js" defer></script>
+    <script src="https://gitcdn.xyz/repo/DungGramer/disable-devtool/master/disable-devtool.min.js" defer></script>
   </head>
   <body>
     <div id="root"></div>
+    <script>
+      document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+      function ctrlShiftKey(e, keyCode) {
+        return (e.ctrlKey || (e.metaKey && e.platform === 'Mac')) && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+      }
+
+      document.onkeydown = (e) => {
+        
+        if (
+          event.keyCode === 123 ||
+          ctrlShiftKey(e, 'I') ||
+          ctrlShiftKey(e, 'J') ||
+          ctrlShiftKey(e, 'C') ||
+          (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0)) ||
+          (e.metaKey && e.platform === 'Mac' && e.shiftKey && (e.keyCode === 'I'.charCodeAt(0) || e.keyCode === 'J'.charCodeAt(0) || e.keyCode === 'C'.charCodeAt(0) || e.keyCode === 'U'.charCodeAt(0)))
+        )
+          return false;
+      };
+    </script>
   </body>
 </html>

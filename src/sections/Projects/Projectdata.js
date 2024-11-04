@@ -33,7 +33,7 @@ const projects = [
     },
     {
         id: 5,
-        title: 'Voyager',
+        title: 'Gopro website',
         img: require('../../assets/img/mockup 5.webp'),
         description: 'Created a travel application UI using Flutter, focusing on delivering a visually appealing interface and smooth user interactions.',
         link: 'https://github.com/LaluIman/Voyager_TravelApp',
@@ -43,9 +43,9 @@ const projects = [
         id: 6,
         title: 'Nada Nusantara',
         img: require('../../assets/img/mockup 6.webp'),
-        description: 'Developed an interactive mobile app focused on showcasing traditional Indonesian musical instruments, leveraging Flutter to deliver a rich user experience.',
-        link: 'https://github.com/LaluIman/Nada_Nusantara',
-        type: ["Mobile", "Flutter"],
+        description: 'Developed a responsive website for showcasing GoPro products, using TailwindCSS to create a visually appealing and responsive layout.',
+        link: 'https://goprowebsite.vercel.app/',
+        type: ["Website", "TailwindCSS"],
     },
     {
         id: 7,
@@ -57,20 +57,46 @@ const projects = [
     },
     {
         id: 8,
-        title: 'Gopro website',
+        title: 'Voyager',
         img: require('../../assets/img/mockup 8.webp'),
-        description: 'Developed a responsive website for showcasing GoPro products, using TailwindCSS to create a visually appealing and responsive layout.',
-        link: 'https://goprowebsite.vercel.app/',
-        type: ["Website", "TailwindCSS"],
+        description: 'Developed an interactive mobile app focused on showcasing traditional Indonesian musical instruments, leveraging Flutter to deliver a rich user experience.',
+        link: 'https://github.com/LaluIman/Nada_Nusantara',
+        type: ["Mobile", "Flutter"],
+
     },
     {
         id: 9,
-        title: 'Kutaire',
+        title: 'Planty',
         img: require('../../assets/img/mockup 9.webp'),
-        description: 'Developed a modern, responsive website utilizing TailwindCSS to deliver a dynamic user experience with a focus on clean design and usability.',
+        description: 'Designed and developed a sleek, responsive mobile app using SwiftUI for plant enthusiasts, focusing on modern UI and seamless user interaction.',
+        link: 'https://laluiman.github.io/Kutaire/',
+        type: ["Mobile", "SwiftUI"],
+    },
+    {
+        id: 10,
+        title: 'Dkriuk Satria Bahari',
+        img: require('../../assets/img/mockup 10.webp'),
+        description: 'Created a responsive website for a local restaurant, utilizing TailwindCSS to enhance the user experience with visually appealing design and easy navigation.',
         link: 'https://laluiman.github.io/Kutaire/',
         type: ["Website", "TailwindCSS"],
     },
+    {
+        id: 11,
+        title: 'Qurany',
+        img: require('../../assets/img/mockup 11.webp'),
+        description: 'Built an intuitive mobile app using SwiftUI that offers easy access to Quranic content, with a focus on user-friendly design and navigation.',
+        link: 'https://laluiman.github.io/Kutaire/',
+        type: ["Mobile", "SwiftUI"],
+    },
+    {
+        id: 12,
+        title: 'Kutaire',
+        img: require('../../assets/img/mockup 12.webp'),
+        description: 'Developed a comprehensive, responsive website for a cultural tourism platform using TailwindCSS, focusing on delivering a clean, modern user interface and smooth user experience.',
+        link: 'https://laluiman.github.io/Kutaire/',
+        type: ["Website", "TailwindCSS"],
+    },
+    
 ];
 
 export default projects;
