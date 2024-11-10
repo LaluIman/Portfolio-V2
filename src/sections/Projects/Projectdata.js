@@ -69,7 +69,7 @@ const projects = [
         title: 'Planty',
         img: require('../../assets/img/mockup 9.webp'),
         description: 'Designed and developed a sleek, responsive mobile app using SwiftUI for plant enthusiasts, focusing on modern UI and seamless user interaction.',
-        link: 'https://laluiman.github.io/Kutaire/',
+        link: 'https://github.com/LaluIman/PlantyApp',
         type: ["Mobile", "SwiftUI"],
     },
     {
@@ -77,7 +77,7 @@ const projects = [
         title: 'Dkriuk Satria Bahari',
         img: require('../../assets/img/mockup 10.webp'),
         description: 'Created a responsive website for a local restaurant, utilizing TailwindCSS to enhance the user experience with visually appealing design and easy navigation.',
-        link: 'https://laluiman.github.io/Kutaire/',
+        link: 'https://dkriuksatriabahari.com/',
         type: ["Website", "TailwindCSS"],
     },
     {
@@ -85,7 +85,7 @@ const projects = [
         title: 'Qurany',
         img: require('../../assets/img/mockup 11.webp'),
         description: 'Built an intuitive mobile app using SwiftUI that offers easy access to Quranic content, with a focus on user-friendly design and navigation.',
-        link: 'https://laluiman.github.io/Kutaire/',
+        link: 'https://github.com/LaluIman/Qurany_App',
         type: ["Mobile", "SwiftUI"],
     },
     {
