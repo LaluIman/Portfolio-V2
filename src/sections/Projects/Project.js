@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 function Project() {
     return (
         <div className="project-box">
-           <Fade cascade delay={0} triggerOnce>
+           <Fade cascade delay={0} fraction={0.01} triggerOnce>
            {projects.map((projek) =>
                 <div key={projek.id} className='project-card'>
                     <a target='_blank' rel="noreferrer" href={projek.link}>
