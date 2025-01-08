@@ -20,7 +20,7 @@ const projects = [
         title: 'Al-Maratush Shalihah',
         img: require('../../assets/img/mockup 3.webp'),
         description: 'Built an engaging school website with a fun, interactive theme and user-friendly interface, offering a modern and appealing digital presence.',
-        link: '',
+        link: 'https://laluiman.github.io/Al-MaratushShalihah_Website/',
         type: ["Website", "TailwindCSS"],
     },
     {
@@ -36,7 +36,7 @@ const projects = [
         title: 'Gopro website',
         img: require('../../assets/img/mockup 5.webp'),
         description: 'Created a travel application UI using Flutter, focusing on delivering a visually appealing interface and smooth user interactions.',
-        link: 'https://github.com/LaluIman/Voyager_TravelApp',
+        link: 'https://goprowebsite.vercel.app/',
         type: ["Mobile", "Flutter"],
     },
     {
@@ -44,7 +44,7 @@ const projects = [
         title: 'Nada Nusantara',
         img: require('../../assets/img/mockup 6.webp'),
         description: 'Developed a responsive website for showcasing GoPro products, using TailwindCSS to create a visually appealing and responsive layout.',
-        link: 'https://goprowebsite.vercel.app/',
+        link: 'https://github.com/LaluIman/Nada_Nusantara',
         type: ["Website", "TailwindCSS"],
     },
     {
@@ -60,7 +60,7 @@ const projects = [
         title: 'Voyager',
         img: require('../../assets/img/mockup 8.webp'),
         description: 'Developed an interactive mobile app focused on showcasing traditional Indonesian musical instruments, leveraging Flutter to deliver a rich user experience.',
-        link: 'https://github.com/LaluIman/Nada_Nusantara',
+        link: 'https://github.com/LaluIman/Voyager_TravelApp',
         type: ["Mobile", "Flutter"],
 
     },
