@@ -2,7 +2,7 @@ const projects = [
     {
         id: 1,
         title: 'Tickety web',
-        img: require('../../assets/img/mockup 1.webp'),
+        img: require('../src/assets/img/mockup 1.webp'),
         description: 'Developed a full-stack web application for event ticketing, complete with administrative functionality and transaction management, using Laravel.',
         link: 'https://github.com/LaluIman/E-commerce-Laravel',
         type: ["Website", "Laravel"],
@@ -10,7 +10,7 @@ const projects = [
     {
         id: 2,
         title: 'UniStore',
-        img: require('../../assets/img/mockup 2.webp'),
+        img: require('../src/assets/img/mockup 2.webp'),
         description: 'Designed and implemented a UI-focused e-commerce mobile application using Flutter, delivering an optimized user interface and seamless user experience.',
         link: 'https://github.com/LaluIman/UniStore_UI',
         type: ["Mobile", "Flutter"],
@@ -18,7 +18,7 @@ const projects = [
     {
         id: 3,
         title: 'Al-Maratush Shalihah',
-        img: require('../../assets/img/mockup 3.webp'),
+        img: require('../src/assets/img/mockup 3.webp'),
         description: 'Built an engaging school website with a fun, interactive theme and user-friendly interface, offering a modern and appealing digital presence.',
         link: 'https://laluiman.github.io/Al-MaratushShalihah_Website/',
         type: ["Website", "TailwindCSS"],
@@ -26,7 +26,7 @@ const projects = [
     {
         id: 4,
         title: 'CookBook',
-        img: require('../../assets/img/mockup 4.webp'),
+        img: require('../src/assets/img/mockup 4.webp'),
         description: 'Developed a mobile cooking recipe app with a clean, intuitive design and efficient layout to enhance user experience and navigation.',
         link: 'https://github.com/LaluIman/CookBookApp',
         type: ["Mobile", "React Native"],
@@ -34,23 +34,23 @@ const projects = [
     {
         id: 5,
         title: 'Gopro website',
-        img: require('../../assets/img/mockup 5.webp'),
+        img: require('../src/assets/img/mockup 5.webp'),
         description: 'Created a travel application UI using Flutter, focusing on delivering a visually appealing interface and smooth user interactions.',
         link: 'https://goprowebsite.vercel.app/',
-        type: ["Mobile", "Flutter"],
+        type: ["Website", "TailwindCSS"],
     },
     {
         id: 6,
         title: 'Nada Nusantara',
-        img: require('../../assets/img/mockup 6.webp'),
+        img: require('../src/assets/img/mockup 6.webp'),
         description: 'Developed a responsive website for showcasing GoPro products, using TailwindCSS to create a visually appealing and responsive layout.',
         link: 'https://github.com/LaluIman/Nada_Nusantara',
-        type: ["Website", "TailwindCSS"],
+        type: ["Mobile", "Flutter"],
     },
     {
         id: 7,
         title: 'Movieflow',
-        img: require('../../assets/img/mockup 7.webp'),
+        img: require('../src/assets/img/mockup 7.webp'),
         description: 'Designed and built a mobile app using SwiftUI for seamless browsing and discovery of movies with a clean, modern interface.',
         link: 'https://github.com/LaluIman/MoviesApp',
         type: ["Mobile", "SwiftUI"],
@@ -58,7 +58,7 @@ const projects = [
     {
         id: 8,
         title: 'Voyager',
-        img: require('../../assets/img/mockup 8.webp'),
+        img: require('../src/assets/img/mockup 8.webp'),
         description: 'Developed an interactive mobile app focused on showcasing traditional Indonesian musical instruments, leveraging Flutter to deliver a rich user experience.',
         link: 'https://github.com/LaluIman/Voyager_TravelApp',
         type: ["Mobile", "Flutter"],
@@ -67,7 +67,7 @@ const projects = [
     {
         id: 9,
         title: 'Planty',
-        img: require('../../assets/img/mockup 9.webp'),
+        img: require('../src/assets/img/mockup 9.webp'),
         description: 'Designed and developed a sleek, responsive mobile app using SwiftUI for plant enthusiasts, focusing on modern UI and seamless user interaction.',
         link: 'https://github.com/LaluIman/PlantyApp',
         type: ["Mobile", "SwiftUI"],
@@ -75,7 +75,7 @@ const projects = [
     {
         id: 10,
         title: 'Dkriuk Satria Bahari',
-        img: require('../../assets/img/mockup 10.webp'),
+        img: require('../src/assets/img/mockup 10.webp'),
         description: 'Created a responsive website for a local restaurant, utilizing TailwindCSS to enhance the user experience with visually appealing design and easy navigation.',
         link: 'https://dkriuksatriabahari.com/',
         type: ["Website", "TailwindCSS"],
@@ -83,7 +83,7 @@ const projects = [
     {
         id: 11,
         title: 'Qurany',
-        img: require('../../assets/img/mockup 11.webp'),
+        img: require('../src/assets/img/mockup 11.webp'),
         description: 'Built an intuitive mobile app using SwiftUI that offers easy access to Quranic content, with a focus on user-friendly design and navigation.',
         link: 'https://github.com/LaluIman/Qurany_App',
         type: ["Mobile", "SwiftUI"],
@@ -91,12 +91,27 @@ const projects = [
     {
         id: 12,
         title: 'Kutaire',
-        img: require('../../assets/img/mockup 12.webp'),
+        img: require('../src/assets/img/mockup 12.webp'),
         description: 'Developed a comprehensive, responsive website for a cultural tourism platform using TailwindCSS, focusing on delivering a clean, modern user interface and smooth user experience.',
         link: 'https://laluiman.github.io/Kutaire/',
         type: ["Website", "TailwindCSS"],
     },
-    
+    {
+        id: 13,
+        title: 'Nusantara Fusion',
+        img: require('../src/assets/img/mockup 13.webp'),
+        description: 'Designed and developed a responsive cultural culinary website using TailwindCSS, showcasing traditional Indonesian fusion dishes with an emphasis on interactive user experience, intuitive navigation, and visually engaging layouts.',
+        link: 'https://laluiman.github.io/Nusantara_Fusion/',
+        type: ["Website", "TailwindCSS"],
+    },
+    {
+        id: 14,
+        title: 'StoryAI',
+        img: require('../src/assets/img/mockup 14.webp'),
+        description: 'Developed a mobile application for kids to generate story based from ideas by using the power of AI generating, make your kids have a great sleep.',
+        link: 'https://github.com/LaluIman/StoryAI',
+        type: ["Mobile", "Flutter"],
+    },
 ];
 
 export default projects;
