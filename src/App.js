@@ -27,7 +27,7 @@ function App() {
             opacity: 0,
             interval: 150,
             delay: 300,
-            duration: 2000
+            duration: 2500
         });
 
         sr.reveal('.home-title-name', { 
@@ -57,7 +57,7 @@ function App() {
             distance: '100px',
             opacity: 0,
             interval: 150,
-            delay: 1000
+            delay: 800
         });
         
         sr.reveal('.project-card', { 

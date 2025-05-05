@@ -10,6 +10,12 @@
 }
 
 
+.content{
+  height: 100px;
+  width: 100px;
+  color: black;
+}
+
 /* Navbar */
 
 .header-navbar {
@@ -316,7 +322,7 @@
   align-items: center;
   justify-content: center;
   color: #000;
-  background-color: #d7d7d7;
+  background-color: #e0e0e0;
   font-weight: 400;
   outline: none;
   overflow: hidden;
@@ -327,7 +333,7 @@
 .Last-button:hover {
   transform: scale(1.05);
   border-color: #494949;
-  background-color: #ffff;
+  background-color: #e8e8e8;
 }
 
 .Last-button:hover .icon {
