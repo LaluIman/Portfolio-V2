@@ -2,14 +2,13 @@ import React, { useEffect} from 'react';
 import "./index.css";
 import logo from "../src/assets/img/logo.png";
 import arrow from "../src/assets/img/Arrow.svg";
-import resume from "../src/assets/img/resume.svg";
 import linkedin from "../src/assets/img/linkedin.svg";
-import mvCV from "../src/assets/CV.pdf";
 import instagram from "../src/assets/img/instagram.svg";
 import github from "../src/assets/img/github.svg";
 import projects from "../src/Projectdata";
 import "react-tooltip/dist/react-tooltip.css";
 import ScrollReveal from 'scrollreveal';
+import resume from '../src/assets/img/Resume.pdf'
 
 function App() {  
     useEffect(() => {
@@ -101,20 +100,15 @@ function App() {
         <img draggable="false" className="header-logo" src={logo} alt="logo" />
         <div className="header-navbar-left">
           <a
-            href="mailto:laluiman468@gmail.com"
-            rel="noreferrer"
-            className="header-navbar-left-item"
-          >
-            Email
-          </a>
-          <a
-            href="https://www.linkedin.com/in/lalu-iman-abdullah/"
+            href={resume}
+            download={resume}
             target="_blank"
             rel="noreferrer"
             className="header-navbar-left-item"
           >
-            Linkedin
+            Resume
           </a>
+          <a href='mailto:laluiman468@gmail.com' target="_blank" rel="noreferrer">
           <button className="header-button lets-talk">
             Let's talk
             <img
@@ -123,12 +117,13 @@ function App() {
               alt="arrow"
             />
           </button>
+          </a>
         </div>
       </div>
       {/* Home section */}
       <div className="home">
         <h1 className="home-title-name">Lalu Iman Abdullah</h1>
-        <h2 className="home-subtitle-passion">Front-end developer</h2>
+        <h2 className="home-subtitle-passion">Front-End Developer</h2>
         <div className="home-link-icon">
           <a
             draggable="false"
@@ -156,16 +151,6 @@ function App() {
             href={"https://github.com/LaluIman"}
           >
             <img src={github} alt="GitHub" place="top"/>
-          </a>
-          <a
-            draggable="false"
-            rel="noreferrer"
-            target="_blank"
-            className="link-icon"
-            href={mvCV}
-            download
-          >
-            <img src={resume} alt="Resume" place="top"/>
           </a>
         </div>
       </div>
