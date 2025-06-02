@@ -8,7 +8,7 @@ import github from "../src/assets/img/github.svg";
 import projects from "../src/Projectdata";
 import "react-tooltip/dist/react-tooltip.css";
 import ScrollReveal from 'scrollreveal';
-import resume from '../src/assets/img/Resume.pdf'
+import resume from '../src/assets/Resume.pdf'
 
 function App() {  
     useEffect(() => {
