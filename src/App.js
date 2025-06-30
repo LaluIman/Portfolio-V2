@@ -208,6 +208,7 @@ function App() {
           ©️ 2025 Lalu Iman Abdullah Portfolio{" "}
         </h1>
       </div>
+      <script defer src="https://vercel.com/analytics/script.js"></script>
     </div>
   );
   
